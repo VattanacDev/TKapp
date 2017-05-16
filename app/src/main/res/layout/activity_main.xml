@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.ploy.tkapp.MainActivity">
+
+    <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp"
+          android:id="@+id/cd_1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+         <RelativeLayout
+
+             android:layout_width="match_parent"
+             android:layout_height="70dp">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="7dp"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:text="what the fun"
+                android:textSize="20sp"
+                android:layout_toLeftOf="@+id/btn_button1"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView" />
+
+             <ImageView
+                 android:paddingLeft="6dp"
+                 android:paddingTop="0dp"
+                 android:paddingRight="5dp"
+                 android:layout_alignParentLeft="true"
+                 android:src="@mipmap/ic_launcher"
+                 android:layout_width="wrap_content"
+                 android:layout_height="70dp"
+                 android:id="@+id/imageView" />
+           <Button
+               android:layout_marginRight="6dp"
+               android:layout_marginTop="27dp"
+               android:layout_alignParentRight="true"
+               android:text="more"
+               android:layout_width="100dp"
+               android:layout_height="40dp"
+               android:id="@+id/btn_button1" />
+         </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button2"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:layout_toEndOf="@+id/imageView2" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView2" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button2" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button3"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:layout_toEndOf="@+id/imageView3" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView3" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button3" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button4"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:layout_toEndOf="@+id/imageView4" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView4" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button4" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button5"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:layout_toEndOf="@+id/imageView5" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView5" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button5" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button6"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:layout_toEndOf="@+id/imageView6" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView6" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button6" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button7"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:layout_toEndOf="@+id/imageView7" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView7" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button7" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cd_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="7dp"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:text="what the fun"
+                    android:textSize="20sp"
+                    android:layout_toLeftOf="@+id/btn_button8"
+                    android:layout_toRightOf="@+id/imageView8"
+                    android:layout_toEndOf="@+id/imageView8" />
+
+                <ImageView
+                    android:paddingLeft="6dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:id="@+id/imageView8" />
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_alignParentRight="true"
+                    android:text="more"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_button8" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>
